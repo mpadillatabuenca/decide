@@ -1,5 +1,15 @@
 name: Python application
 
+on:
+  push:
+     branches:
+	   - master
+  workflow_call:
+    secrets:
+      CODACY_PROJECT_TOKEN:
+        required: true
+
+
 on: [push]
 
 jobs:
