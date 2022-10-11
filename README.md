@@ -3,9 +3,6 @@ git branch -a | grep "origin" | grep -v "master" | cut -d/ -f3 | xargs git push 
 
 UN CAMBIO!
 
-Cambio que quiero conservar
-
-
 Plataforma voto electrónico educativa
 =====================================
 
